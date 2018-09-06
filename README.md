@@ -11,7 +11,7 @@ Exemplo de uso:
 
 ```
 $node
-> let getLink = require("get-link")
+> let getLink = require("sm-get-link")
 > getLink.getLinksFromMd("este é o link do [google] (www.google.com)");
 //[ {href: "www.google.com", text: "google"} ]
 ```
@@ -26,7 +26,7 @@ $node
 ## instalação
 
 - você deverá ter o node + npm instalados. Para guia de instalação, visite [o site oficial](https://www.npmjs.com/get-npm).
-- proceda com a instalação com `$npm install get-link`
+- proceda com a instalação com `$npm install sm-get-link`
 
 
 ## roadmap oficial do projeto
