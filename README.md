@@ -32,7 +32,7 @@ $node
 ## roadmap oficial do projeto
 
 #### versão 3.0.0 (sem previsão, aceita-se contribuições)
-- README translated to english;;
+- README translated to english;
 
 #### versão 2.0.0 (previsão outubro/2018)
 - Implementação de reconhecimento de URL mais complexa;

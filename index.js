@@ -8,8 +8,8 @@ exports.getLinksFromMd = textMd => {
     throw new Error("Erro: o parâmetro deve ser uma string");
   }
 
-  let regexUrl = new RegExp (/(http:\/\/|https:\/\/)?(w{3}\.)?(\w)+(\.(\w){2,3}){1,2}/g);
-  let regexMarkDown = new RegExp (/(?<=\[).*?(?=\])/g);
+  let regexUrl = new RegExp(/(http:\/\/|https:\/\/)?(w{3}\.)?(\w)+(\.(\w){2,3}){1,2}/g);
+  let regexMarkDown = new RegExp(/(?<=\[).*?(?=\])/g);
 
   let textUrl = textMd.match(regexUrl);
   let textMarkDown = textMd.match(regexMarkDown);

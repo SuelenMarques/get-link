@@ -35,8 +35,8 @@ describe ("getLinksFromMd()", () => {
   });
 
   describe("Quando o parâmetro tem vários links", () => {
- 	it("Deveria me retornar um erro", () => {
-   		expect(getLinksFromMd("São vários markdowns e vários links: [google] (http://www.google.com), [youtube] (www.youtube.com.br), [hotmail] (https://hotmail.com), [twitter] (http://www.twitter.com.br)")).to.deep.equal([{href:"http://www.google.com",text:"google"},{href:"www.youtube.com.br",text:"youtube"},{href:"https://hotmail.com",text:"hotmail"},{href:"http://www.twitter.com.br",text:"twitter"}]);
+ 	  it("Deveria me retornar um erro", () => {
+      expect(getLinksFromMd("São vários markdowns e vários links: [google] (http://www.google.com), [youtube] (www.youtube.com.br), [hotmail] (https://hotmail.com), [twitter] (http://www.twitter.com.br)")).to.deep.equal([{href:"http://www.google.com",text:"google"},{href:"www.youtube.com.br",text:"youtube"},{href:"https://hotmail.com",text:"hotmail"},{href:"http://www.twitter.com.br",text:"twitter"}]);
     });
   });
 
